@@ -22,6 +22,15 @@
   justify-content: space-between;
   font-size: 1.4rem;
 
+  @media only screen and (max-width:500px){
+    flex-wrap: wrap;
+    height: 11rem;
+    align-content: space-around;
+ 
+    
+       }
+  
+
   .logo{
     height: 3.25rem;
     margin-left: 2rem;
@@ -30,8 +39,14 @@
     flex:0 0 40%;
     // background-color: blue;
     // display: flex;
-  // align-items: center;
-    // justify-content: center;
+ 
+    @media only screen and (max-width:500px){
+ order:1;
+ flex: 0 0 100%;
+ background-color: var(--color-Grey-light-2);
+
+ 
+    }
   
 &_input{
 font-family: inherit;
