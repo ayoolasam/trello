@@ -82,7 +82,7 @@ outline: none;
 .user-nav{
   display: flex;
   // background-color: chartreuse;
-  // margin-right: 3.5rem;
+  
   // flex:0 0 20%;
   // justify-content: space-between;
   align-items: center;
@@ -129,10 +129,10 @@ position: relative;
     &_image{
 height:3.75rem;
 border-radius: 50%;
-margin-left: 1rem;
+
     }
     &-name{
-margin-left: 0.6rem;
+
     }
   }
 }

@@ -14,13 +14,31 @@
 
 }
 
+$bp-largest :1200px;
+$bp-large:1100px;
+
 .container{
   max-width:120rem;
   margin: 8rem auto;
   background-color: var(--color-Grey-light-2);
   box-shadow:var(--shadow-dark);
   min-height: 50rem;
+  @media only screen and (max-width:$bp-largest) {
+    
+    margin: 0;
+    max-width :100% ;
+    width: 100%;
+
+
+
+  }
+ 
 }
 .content{
   display: flex;
+  @media only screen and (max-width:900px)
+  {
+    flex-direction:column;
+   
+  }
 }
